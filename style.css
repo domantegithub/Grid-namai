@@ -1,0 +1,78 @@
+.flex {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    gap: 20px;
+}
+.col-one {
+    flex: 1;
+}
+.col-two {
+   display: flex; 
+   flex-direction: column;
+   flex: 1;
+}
+.row {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.box1 {
+    background-color: lightcoral;
+}
+.box2 {
+    flex: 2;
+    background-color: lightcoral;
+}
+.box3 {
+    flex: 1;
+    color: white;
+    text-align: center;
+    background-color: lightcoral;
+}
+.box4{
+    flex: 1;
+    background-color: lightcoral;
+}
+.content1 {
+    color: white;
+    text-align: center;
+    height: 50vh;
+}
+.content2 {
+    color: white;
+    text-align: center;
+    height: 24vh;
+}
+.content3 {
+    color: white;
+    text-align: center;
+    height: 23.5vh;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.item1 {
+    background-color: rgb(106, 184, 210);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.item2 {
+    background-color: rgb(106, 184, 210);
+    grid-column: 3/5;
+}
+.item3 {
+    background-color: rgb(106, 184, 210);
+}
+.item4 {
+    background-color: rgb(106, 184, 210);
+}
